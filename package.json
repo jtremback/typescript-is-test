@@ -10,6 +10,6 @@
     "typescript-is": "^0.10.1"
   },
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts"
+    "start": "ts-node-dev --compiler ttypescript --transpileOnly --respawn src/index.ts"
   }
 }
